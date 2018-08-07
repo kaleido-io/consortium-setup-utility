@@ -1,0 +1,39 @@
+{
+    "name": "Sample Consortium",
+    "description": "A sample consortium for test purposes",
+    "memberships": [
+        {
+            "name": "Jim"
+        },
+        {
+            "name": "Peter"
+        }
+    ],
+    "environments": [
+        {
+            "name": "Development Environment",
+            "provider": "geth",
+            "consensusType": "poa",
+            "nodes": [
+                {
+                    "name": "Jim's node",
+                    "owner": "Jim"
+                },
+                {
+                    "name": "Peter's node",
+                    "owner": "Peter"
+                }
+            ],
+            "applicationCredentials": [
+                {
+                    "name": "Jim's credentials",
+                    "owner": "Jim"
+                },
+                {
+                    "name": "Peter's credentials",
+                    "owner": "Peter"
+                }
+            ]
+        }
+    ]
+}
