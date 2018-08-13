@@ -5,7 +5,7 @@
 - Create a JSON object with the description of the consortium to setup
 - Invoke the **setup** method passing the consortium description and a boolean indicating whether application credentials should be recreated
 
-The **setup** method will check that each item in the consortium description exists and create those that are missing. It returns a promise that will resolve when the environment is ready (all nodes as live) and reject if the verification or creation of any of the items in the consortium fails.
+The **setup** method will check that each item in the consortium description exists and create those that are missing. It returns a promise that will resolve when the environment is ready (all nodes are live) and reject if the verification or creation of any of the items in the consortium fails.
 
 
 ```
